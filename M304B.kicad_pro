@@ -370,7 +370,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "M304.kicad_pro",
+    "filename": "M304B.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -470,6 +470,10 @@
     [
       "1e2511a2-7248-4cea-afb1-80995e2b8f5b",
       "RTC"
+    ],
+    [
+      "808aea72-aba1-451d-966a-43c6afccf196",
+      "InputSwitch"
     ]
   ],
   "text_variables": {}
