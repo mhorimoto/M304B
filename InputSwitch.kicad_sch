@@ -4,6 +4,14 @@
 
   (paper "A4")
 
+  (title_block
+    (title "InputSwitch Part")
+    (date "2024-02-16")
+    (rev "1.00")
+    (company "LLC. YS-Lab.")
+    (comment 1 "スイッチの名称を反映させる")
+  )
+
   (lib_symbols
     (symbol "74xx:74HC14" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 0 1.27 0)

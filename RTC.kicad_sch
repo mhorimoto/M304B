@@ -6,9 +6,10 @@
 
   (title_block
     (title "RTC回路")
-    (date "2022-08-02")
-    (rev "1.00")
-    (company "HOLLY&Co.,Ltd.")
+    (date "2024-02-16")
+    (rev "2.00")
+    (company "LLC. YS-Lab")
+    (comment 1 "LIRを使用するときはJP1,2を1-2をショート CRを使用するときは2-3をショート")
   )
 
   (lib_symbols
@@ -1140,9 +1141,6 @@
     (instances
       (project "M304B"
         (path "/922fb1f0-ef32-4fe1-b104-d5a058d25ebb/1e2511a2-7248-4cea-afb1-80995e2b8f5b"
-          (reference "JP2") (unit 1)
-        )
-        (path "/922fb1f0-ef32-4fe1-b104-d5a058d25ebb"
           (reference "JP2") (unit 1)
         )
       )

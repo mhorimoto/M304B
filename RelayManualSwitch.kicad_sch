@@ -6,8 +6,9 @@
 
   (title_block
     (title "Relay Control AUTO/MANUAL")
-    (date "2022-07-08")
-    (rev "1.00")
+    (date "2024-02-16")
+    (rev "1.01")
+    (company "LLC. YS-Lab")
   )
 
   (lib_symbols
@@ -2298,6 +2299,10 @@
   (text "MANUAL" (at 154.94 52.07 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7d5d978e-23d9-4af2-a248-c07d2bc7eec6)
+  )
+  (text "Future using TLP3475SRHA4 for B2" (at 180.34 175.26 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 99d7a5d6-c830-4c5e-be80-d4696655d7c2)
   )
   (text "MANUAL" (at 229.87 44.45 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
