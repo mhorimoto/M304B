@@ -802,8 +802,8 @@
     (property "Datasheet" "~" (at 163.83 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 490cd851-ad3d-4a8c-959c-504353fb2319))
-    (pin "2" (uuid dbda3863-a41a-4a64-a73c-b9bf59c694e8))
+    (pin "1" (uuid 490cd851-ad3d-4a8c-959c-504353fb231a))
+    (pin "2" (uuid dbda3863-a41a-4a64-a73c-b9bf59c694e9))
     (instances
       (project "M304B"
         (path "/922fb1f0-ef32-4fe1-b104-d5a058d25ebb/808aea72-aba1-451d-966a-43c6afccf196"
@@ -1035,8 +1035,8 @@
     (property "Datasheet" "~" (at 115.57 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 490cd851-ad3d-4a8c-959c-504353fb2319))
-    (pin "2" (uuid dbda3863-a41a-4a64-a73c-b9bf59c694e8))
+    (pin "1" (uuid 490cd851-ad3d-4a8c-959c-504353fb231b))
+    (pin "2" (uuid dbda3863-a41a-4a64-a73c-b9bf59c694ea))
     (instances
       (project "M304B"
         (path "/922fb1f0-ef32-4fe1-b104-d5a058d25ebb/808aea72-aba1-451d-966a-43c6afccf196"

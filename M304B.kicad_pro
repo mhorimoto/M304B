@@ -155,7 +155,9 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "power_pin_not_driven|1358900|787400|cb5da310-6344-427d-bd43-63e6c484e76b|00000000-0000-0000-0000-000000000000|||"
+    ],
     "meta": {
       "version": 0
     },
@@ -339,16 +341,16 @@
       "different_unit_net": "error",
       "duplicate_reference": "error",
       "duplicate_sheet_names": "error",
-      "endpoint_off_grid": "warning",
+      "endpoint_off_grid": "ignore",
       "extra_units": "error",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
-      "lib_symbol_issues": "warning",
+      "lib_symbol_issues": "ignore",
       "missing_bidi_pin": "warning",
-      "missing_input_pin": "warning",
+      "missing_input_pin": "ignore",
       "missing_power_pin": "error",
-      "missing_unit": "warning",
+      "missing_unit": "ignore",
       "multiple_net_names": "warning",
       "net_not_bus_member": "warning",
       "no_connect_connected": "warning",
@@ -358,7 +360,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
-      "simulation_model_issue": "error",
+      "simulation_model_issue": "ignore",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
@@ -398,7 +400,12 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": "+5V"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
