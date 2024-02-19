@@ -891,13 +891,13 @@
   (symbol (lib_id "Device:R_US") (at 88.9 74.93 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0d25c838-9091-4bd9-8a39-1233ee1e64ef)
-    (property "Reference" "R9" (at 88.9 69.8967 90)
+    (property "Reference" "R303" (at 88.9 69.8967 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "470k" (at 88.9 72.3209 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 89.154 73.914 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 89.154 73.914 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 88.9 74.93 0)
@@ -908,7 +908,7 @@
     (instances
       (project "M304B"
         (path "/922fb1f0-ef32-4fe1-b104-d5a058d25ebb/1e2511a2-7248-4cea-afb1-80995e2b8f5b"
-          (reference "R9") (unit 1)
+          (reference "R303") (unit 1)
         )
       )
     )
@@ -917,13 +917,13 @@
   (symbol (lib_id "Jumper:Jumper_3_Open") (at 71.12 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 10c846c4-171b-4508-ad7d-9320c254afac)
-    (property "Reference" "JP1" (at 71.12 76.2 0)
+    (property "Reference" "JP301" (at 71.12 76.2 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LIR or CR" (at 71.12 78.74 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 71.12 82.55 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (at 71.12 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 71.12 82.55 0)
@@ -935,7 +935,7 @@
     (instances
       (project "M304B"
         (path "/922fb1f0-ef32-4fe1-b104-d5a058d25ebb/1e2511a2-7248-4cea-afb1-80995e2b8f5b"
-          (reference "JP1") (unit 1)
+          (reference "JP301") (unit 1)
         )
       )
     )
@@ -944,7 +944,7 @@
   (symbol (lib_id "power:GND") (at 133.35 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 176e668e-7e83-4e85-aa56-8d1a67830218)
-    (property "Reference" "#PWR0161" (at 133.35 107.95 0)
+    (property "Reference" "#PWR0301" (at 133.35 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 133.35 105.41 0)
@@ -960,7 +960,7 @@
     (instances
       (project "M304B"
         (path "/922fb1f0-ef32-4fe1-b104-d5a058d25ebb/1e2511a2-7248-4cea-afb1-80995e2b8f5b"
-          (reference "#PWR0161") (unit 1)
+          (reference "#PWR0301") (unit 1)
         )
       )
     )
@@ -969,7 +969,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x01") (at 118.11 49.53 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3c6db50e-fa7b-4df3-abe0-3b950b77fef0)
-    (property "Reference" "SQW1" (at 118.11 45.72 90)
+    (property "Reference" "SQW301" (at 118.11 45.72 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x01" (at 120.5429 49.53 0)
@@ -985,7 +985,7 @@
     (instances
       (project "M304B"
         (path "/922fb1f0-ef32-4fe1-b104-d5a058d25ebb/1e2511a2-7248-4cea-afb1-80995e2b8f5b"
-          (reference "SQW1") (unit 1)
+          (reference "SQW301") (unit 1)
         )
       )
     )
@@ -994,13 +994,13 @@
   (symbol (lib_id "Device:R_US") (at 160.02 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 47157f2d-3968-4192-b6d4-34dbd78823af)
-    (property "Reference" "R8" (at 161.671 66.0979 0)
+    (property "Reference" "R305" (at 161.671 66.0979 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "680k" (at 161.671 68.5221 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 161.036 67.564 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 161.036 67.564 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 160.02 67.31 0)
@@ -1011,7 +1011,7 @@
     (instances
       (project "M304B"
         (path "/922fb1f0-ef32-4fe1-b104-d5a058d25ebb/1e2511a2-7248-4cea-afb1-80995e2b8f5b"
-          (reference "R8") (unit 1)
+          (reference "R305") (unit 1)
         )
       )
     )
@@ -1020,13 +1020,13 @@
   (symbol (lib_id "Device:R_US") (at 53.34 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4dde97f8-4120-42da-921c-eb122eded0b6)
-    (property "Reference" "R6" (at 54.991 68.6379 0)
+    (property "Reference" "R301" (at 54.991 68.6379 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1.8k" (at 54.991 71.0621 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 54.356 70.104 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 54.356 70.104 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 53.34 69.85 0)
@@ -1037,7 +1037,7 @@
     (instances
       (project "M304B"
         (path "/922fb1f0-ef32-4fe1-b104-d5a058d25ebb/1e2511a2-7248-4cea-afb1-80995e2b8f5b"
-          (reference "R6") (unit 1)
+          (reference "R301") (unit 1)
         )
       )
     )
@@ -1046,7 +1046,7 @@
   (symbol (lib_id "Device:Crystal_Small") (at 151.13 92.71 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4e1c2be3-d489-4225-8a23-40df5bd9c480)
-    (property "Reference" "Y1" (at 153.289 91.8753 90)
+    (property "Reference" "Y301" (at 153.289 91.8753 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "32.768kHz" (at 146.05 99.06 90)
@@ -1063,7 +1063,7 @@
     (instances
       (project "M304B"
         (path "/922fb1f0-ef32-4fe1-b104-d5a058d25ebb/1e2511a2-7248-4cea-afb1-80995e2b8f5b"
-          (reference "Y1") (unit 1)
+          (reference "Y301") (unit 1)
         )
       )
     )
@@ -1072,13 +1072,13 @@
   (symbol (lib_id "Device:R_US") (at 97.79 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 559581e1-a9fd-4122-a901-c2eb357e4325)
-    (property "Reference" "R5" (at 99.441 90.2279 0)
+    (property "Reference" "R304" (at 99.441 90.2279 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1.8M" (at 99.441 92.6521 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 98.806 91.694 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 98.806 91.694 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 97.79 91.44 0)
@@ -1089,7 +1089,7 @@
     (instances
       (project "M304B"
         (path "/922fb1f0-ef32-4fe1-b104-d5a058d25ebb/1e2511a2-7248-4cea-afb1-80995e2b8f5b"
-          (reference "R5") (unit 1)
+          (reference "R304") (unit 1)
         )
       )
     )
@@ -1098,7 +1098,7 @@
   (symbol (lib_id "power:GND") (at 166.37 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 81fc825a-af9f-4f20-8c99-87aa2d364f74)
-    (property "Reference" "#PWR0106" (at 166.37 107.95 0)
+    (property "Reference" "#PWR0302" (at 166.37 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 166.37 105.41 0)
@@ -1114,7 +1114,7 @@
     (instances
       (project "M304B"
         (path "/922fb1f0-ef32-4fe1-b104-d5a058d25ebb/1e2511a2-7248-4cea-afb1-80995e2b8f5b"
-          (reference "#PWR0106") (unit 1)
+          (reference "#PWR0302") (unit 1)
         )
       )
     )
@@ -1123,13 +1123,13 @@
   (symbol (lib_name "Jumper_3_Open_1") (lib_id "Jumper:Jumper_3_Open") (at 107.95 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8289ca4d-9b21-4104-bccb-e04291976fb4)
-    (property "Reference" "JP2" (at 107.95 62.23 0)
+    (property "Reference" "JP302" (at 107.95 62.23 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LIR or CR" (at 107.95 64.77 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 107.95 68.58 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (at 107.95 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 107.95 68.58 0)
@@ -1141,7 +1141,7 @@
     (instances
       (project "M304B"
         (path "/922fb1f0-ef32-4fe1-b104-d5a058d25ebb/1e2511a2-7248-4cea-afb1-80995e2b8f5b"
-          (reference "JP2") (unit 1)
+          (reference "JP302") (unit 1)
         )
       )
     )
@@ -1150,7 +1150,7 @@
   (symbol (lib_id "Device:C_Small") (at 152.4 74.93 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b6c40df3-a931-4fc0-b106-6a94d1d6d56a)
-    (property "Reference" "C1" (at 152.4063 69.1568 90)
+    (property "Reference" "C301" (at 152.4063 69.1568 90)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "0.1uF" (at 152.4063 72.1502 90)
@@ -1170,7 +1170,7 @@
     (instances
       (project "M304B"
         (path "/922fb1f0-ef32-4fe1-b104-d5a058d25ebb/1e2511a2-7248-4cea-afb1-80995e2b8f5b"
-          (reference "C1") (unit 1)
+          (reference "C301") (unit 1)
         )
       )
     )
@@ -1179,7 +1179,7 @@
   (symbol (lib_id "Device:Battery_Cell") (at 71.12 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c172b58a-7b55-455e-8d57-1430df3b1c68)
-    (property "Reference" "BT1" (at 67.31 90.805 0)
+    (property "Reference" "BT301" (at 63.5 90.17 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "CR2032" (at 62.865 94.615 0)
@@ -1199,7 +1199,7 @@
     (instances
       (project "M304B"
         (path "/922fb1f0-ef32-4fe1-b104-d5a058d25ebb/1e2511a2-7248-4cea-afb1-80995e2b8f5b"
-          (reference "BT1") (unit 1)
+          (reference "BT301") (unit 1)
         )
       )
     )
@@ -1208,13 +1208,13 @@
   (symbol (lib_id "Device:R_US") (at 74.93 60.96 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c3d96660-d8b0-47f3-b48a-a847d2899a65)
-    (property "Reference" "R4" (at 74.93 55.9267 90)
+    (property "Reference" "R302" (at 74.93 55.9267 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "200" (at 74.93 58.3509 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 75.184 59.944 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 75.184 59.944 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 74.93 60.96 0)
@@ -1225,7 +1225,7 @@
     (instances
       (project "M304B"
         (path "/922fb1f0-ef32-4fe1-b104-d5a058d25ebb/1e2511a2-7248-4cea-afb1-80995e2b8f5b"
-          (reference "R4") (unit 1)
+          (reference "R302") (unit 1)
         )
       )
     )
@@ -1234,7 +1234,7 @@
   (symbol (lib_id "Timer_RTC:DS1307+") (at 133.35 88.9 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c6a7fe34-5187-41f6-84db-e8fc3ea61f19)
-    (property "Reference" "U1" (at 121.92 77.47 0)
+    (property "Reference" "U301" (at 121.92 77.47 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "DS1307+" (at 125.73 80.01 0)
@@ -1257,7 +1257,7 @@
     (instances
       (project "M304B"
         (path "/922fb1f0-ef32-4fe1-b104-d5a058d25ebb/1e2511a2-7248-4cea-afb1-80995e2b8f5b"
-          (reference "U1") (unit 1)
+          (reference "U301") (unit 1)
         )
       )
     )
@@ -1266,7 +1266,7 @@
   (symbol (lib_id "Diode:1N4148") (at 64.77 67.31 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e646e054-1018-4aec-9db6-8b6ed37d2bd6)
-    (property "Reference" "D1" (at 66.802 66.0979 90)
+    (property "Reference" "D301" (at 66.802 66.0979 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148" (at 66.802 68.5221 90)
@@ -1289,7 +1289,7 @@
     (instances
       (project "M304B"
         (path "/922fb1f0-ef32-4fe1-b104-d5a058d25ebb/1e2511a2-7248-4cea-afb1-80995e2b8f5b"
-          (reference "D1") (unit 1)
+          (reference "D301") (unit 1)
         )
       )
     )

@@ -736,11 +736,11 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 18022f8d-0511-4d70-8e86-869642cc3589)
   )
-  (hierarchical_label "SW_D" (shape input) (at 196.85 140.97 0) (fields_autoplaced)
+  (hierarchical_label "SW_RIGHT" (shape input) (at 196.85 140.97 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 40542b1e-24a9-4442-8328-658b55330a46)
   )
-  (hierarchical_label "SW_A" (shape input) (at 196.85 106.68 0) (fields_autoplaced)
+  (hierarchical_label "SW_UP" (shape input) (at 196.85 106.68 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 5a461c93-9c4b-48d6-bdc2-f3b29ba11a52)
   )
@@ -748,11 +748,11 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 9f4a04b7-c496-413c-902d-54803e8c4702)
   )
-  (hierarchical_label "SW_C" (shape input) (at 196.85 129.54 0) (fields_autoplaced)
+  (hierarchical_label "SW_LEFT" (shape input) (at 196.85 129.54 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid c2144cbb-6e98-44c0-8e20-d1f3416223a0)
   )
-  (hierarchical_label "SW_B" (shape input) (at 196.85 118.11 0) (fields_autoplaced)
+  (hierarchical_label "SW_DOWN" (shape input) (at 196.85 118.11 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid c9c4961d-4b59-4d46-b1c7-6dcc4abde4a8)
   )
@@ -772,13 +772,13 @@
   (symbol (lib_id "Device:C_Small") (at 148.59 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2044de12-e02e-44a7-83cd-0670b50e80b2)
-    (property "Reference" "C8" (at 150.9141 88.9642 0)
+    (property "Reference" "C402" (at 150.9141 88.9642 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.01uF" (at 150.9141 91.3884 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 148.59 90.17 0)
+    (property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" (at 148.59 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 148.59 90.17 0)
@@ -789,7 +789,7 @@
     (instances
       (project "M304B"
         (path "/922fb1f0-ef32-4fe1-b104-d5a058d25ebb/808aea72-aba1-451d-966a-43c6afccf196"
-          (reference "C8") (unit 1)
+          (reference "C402") (unit 1)
         )
       )
     )
@@ -798,13 +798,13 @@
   (symbol (lib_id "Device:C_Small") (at 163.83 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 291fd9bb-513b-45cb-8c69-5ca7a9c08834)
-    (property "Reference" "C7" (at 166.1541 88.9642 0)
+    (property "Reference" "C403" (at 166.1541 88.9642 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.01uF" (at 166.1541 91.3884 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 163.83 90.17 0)
+    (property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" (at 163.83 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 163.83 90.17 0)
@@ -815,7 +815,7 @@
     (instances
       (project "M304B"
         (path "/922fb1f0-ef32-4fe1-b104-d5a058d25ebb/808aea72-aba1-451d-966a-43c6afccf196"
-          (reference "C7") (unit 1)
+          (reference "C403") (unit 1)
         )
       )
     )
@@ -824,10 +824,10 @@
   (symbol (lib_id "Switch:SW_SPST") (at 180.34 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 56106b06-09da-47b5-aa30-2f2b1007fbd7)
-    (property "Reference" "SW10" (at 176.53 116.84 0)
+    (property "Reference" "SW403" (at 176.53 116.84 0)
       (effects (font (size 1 1)))
     )
-    (property "Value" "SW_B" (at 185.42 116.84 0)
+    (property "Value" "SW_DOWN" (at 186.69 116.84 0)
       (effects (font (size 1 1)))
     )
     (property "Footprint" "HOLLY:TVDT18-050" (at 180.34 118.11 0)
@@ -841,7 +841,7 @@
     (instances
       (project "M304B"
         (path "/922fb1f0-ef32-4fe1-b104-d5a058d25ebb/808aea72-aba1-451d-966a-43c6afccf196"
-          (reference "SW10") (unit 1)
+          (reference "SW403") (unit 1)
         )
       )
     )
@@ -850,10 +850,10 @@
   (symbol (lib_id "Switch:SW_SPST") (at 180.34 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 801591f2-aca1-41de-9620-02798f9800db)
-    (property "Reference" "SW13" (at 176.53 151.13 0)
+    (property "Reference" "SW406" (at 176.53 151.13 0)
       (effects (font (size 1 1)))
     )
-    (property "Value" "SW_ENTER" (at 185.42 151.13 0)
+    (property "Value" "SW_ENTER" (at 186.69 151.13 0)
       (effects (font (size 1 1)))
     )
     (property "Footprint" "HOLLY:TVDT18-050" (at 180.34 152.4 0)
@@ -867,7 +867,7 @@
     (instances
       (project "M304B"
         (path "/922fb1f0-ef32-4fe1-b104-d5a058d25ebb/808aea72-aba1-451d-966a-43c6afccf196"
-          (reference "SW13") (unit 1)
+          (reference "SW406") (unit 1)
         )
       )
     )
@@ -876,7 +876,7 @@
   (symbol (lib_id "74xx:74HC14") (at 177.8 71.12 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 801c7feb-8e20-42e8-8f02-6b21e28dd264)
-    (property "Reference" "U5" (at 177.8 63.1657 0)
+    (property "Reference" "U401" (at 177.8 63.1657 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74HC14" (at 177.8 65.5899 0)
@@ -905,7 +905,7 @@
     (instances
       (project "M304B"
         (path "/922fb1f0-ef32-4fe1-b104-d5a058d25ebb/808aea72-aba1-451d-966a-43c6afccf196"
-          (reference "U5") (unit 2)
+          (reference "U401") (unit 2)
         )
       )
     )
@@ -914,7 +914,7 @@
   (symbol (lib_id "Device:RotaryEncoder") (at 151.13 40.64 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 83ca4d2e-e715-4197-98fb-82bb25d86911)
-    (property "Reference" "SW8" (at 156.972 39.4279 90)
+    (property "Reference" "SW401" (at 156.972 39.4279 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "RotaryEncoder" (at 156.972 41.8521 90)
@@ -932,7 +932,7 @@
     (instances
       (project "M304B"
         (path "/922fb1f0-ef32-4fe1-b104-d5a058d25ebb/808aea72-aba1-451d-966a-43c6afccf196"
-          (reference "SW8") (unit 1)
+          (reference "SW401") (unit 1)
         )
       )
     )
@@ -941,10 +941,10 @@
   (symbol (lib_id "Switch:SW_SPST") (at 180.34 140.97 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 879e780e-dab6-42df-8f2f-534af2387446)
-    (property "Reference" "SW12" (at 176.53 139.7 0)
+    (property "Reference" "SW405" (at 176.53 139.7 0)
       (effects (font (size 1 1)))
     )
-    (property "Value" "SW_D" (at 185.42 139.7 0)
+    (property "Value" "SW_RIGHT" (at 186.69 139.7 0)
       (effects (font (size 1 1)))
     )
     (property "Footprint" "HOLLY:TVDT18-050" (at 180.34 140.97 0)
@@ -958,7 +958,7 @@
     (instances
       (project "M304B"
         (path "/922fb1f0-ef32-4fe1-b104-d5a058d25ebb/808aea72-aba1-451d-966a-43c6afccf196"
-          (reference "SW12") (unit 1)
+          (reference "SW405") (unit 1)
         )
       )
     )
@@ -967,13 +967,13 @@
   (symbol (lib_id "74xx:74HC14") (at 129.54 50.8 0) (unit 7)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8d41aeb2-3ae7-4241-904f-1f9068f7c743)
-    (property "Reference" "U5" (at 135.382 49.5879 0)
+    (property "Reference" "U401" (at 135.382 49.5879 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "74HC14" (at 135.382 52.0121 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 129.54 50.8 0)
+    (property "Footprint" "Package_DIP:DIP-14_W7.62mm_LongPads" (at 129.54 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14" (at 129.54 50.8 0)
@@ -996,7 +996,7 @@
     (instances
       (project "M304B"
         (path "/922fb1f0-ef32-4fe1-b104-d5a058d25ebb/808aea72-aba1-451d-966a-43c6afccf196"
-          (reference "U5") (unit 7)
+          (reference "U401") (unit 7)
         )
       )
     )
@@ -1005,10 +1005,10 @@
   (symbol (lib_id "Switch:SW_SPST") (at 180.34 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 912aa41a-292f-4e70-92bf-faf34d03a9bb)
-    (property "Reference" "SW9" (at 176.53 105.41 0)
+    (property "Reference" "SW402" (at 176.53 105.41 0)
       (effects (font (size 1 1)))
     )
-    (property "Value" "SW_A" (at 185.42 105.41 0)
+    (property "Value" "SW_UP" (at 185.42 105.41 0)
       (effects (font (size 1 1)))
     )
     (property "Footprint" "HOLLY:TVDT18-050" (at 180.34 106.68 0)
@@ -1022,7 +1022,7 @@
     (instances
       (project "M304B"
         (path "/922fb1f0-ef32-4fe1-b104-d5a058d25ebb/808aea72-aba1-451d-966a-43c6afccf196"
-          (reference "SW9") (unit 1)
+          (reference "SW402") (unit 1)
         )
       )
     )
@@ -1031,13 +1031,13 @@
   (symbol (lib_id "Device:C_Small") (at 115.57 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 994367c9-c036-4bc5-9bed-b4d0f40d0b6f)
-    (property "Reference" "C6" (at 117.8941 49.5942 0)
+    (property "Reference" "C401" (at 117.8941 49.5942 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 117.8941 52.0184 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 115.57 50.8 0)
+    (property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" (at 115.57 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 115.57 50.8 0)
@@ -1048,7 +1048,7 @@
     (instances
       (project "M304B"
         (path "/922fb1f0-ef32-4fe1-b104-d5a058d25ebb/808aea72-aba1-451d-966a-43c6afccf196"
-          (reference "C6") (unit 1)
+          (reference "C401") (unit 1)
         )
       )
     )
@@ -1057,10 +1057,10 @@
   (symbol (lib_id "Switch:SW_SPST") (at 180.34 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid aa16758f-cdaf-4818-8eeb-42f877ce874f)
-    (property "Reference" "SW11" (at 176.53 128.27 0)
+    (property "Reference" "SW404" (at 176.53 128.27 0)
       (effects (font (size 1 1)))
     )
-    (property "Value" "SW_C" (at 185.42 128.27 0)
+    (property "Value" "SW_LEFT" (at 186.69 128.27 0)
       (effects (font (size 1 1)))
     )
     (property "Footprint" "HOLLY:TVDT18-050" (at 180.34 129.54 0)
@@ -1074,7 +1074,7 @@
     (instances
       (project "M304B"
         (path "/922fb1f0-ef32-4fe1-b104-d5a058d25ebb/808aea72-aba1-451d-966a-43c6afccf196"
-          (reference "SW11") (unit 1)
+          (reference "SW404") (unit 1)
         )
       )
     )
@@ -1083,7 +1083,7 @@
   (symbol (lib_id "74xx:74HC14") (at 177.8 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ee87988b-251a-4cb0-986c-dbd612efd62c)
-    (property "Reference" "U5" (at 177.8 77.1357 0)
+    (property "Reference" "U401" (at 177.8 77.1357 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74HC14" (at 177.8 79.5599 0)
@@ -1112,7 +1112,7 @@
     (instances
       (project "M304B"
         (path "/922fb1f0-ef32-4fe1-b104-d5a058d25ebb/808aea72-aba1-451d-966a-43c6afccf196"
-          (reference "U5") (unit 1)
+          (reference "U401") (unit 1)
         )
       )
     )
